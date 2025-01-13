@@ -66,7 +66,7 @@ import java.nio.charset.StandardCharsets;
  */
 public class DeepseekCodeReviewUtil {
 
-    private static final String DEEPSEEK_API_KEY = "sk-ebf3266126694c4591c1f8c8c9fa39a0";
+    private static final String DEEPSEEK_API_KEY = "sk-ebf*********************9fa39a0";
 
     public static AIResponse codeReview(String urlPath, String diffCode) throws IOException {
         URL url = new URL(urlPath);
